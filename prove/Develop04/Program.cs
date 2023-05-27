@@ -4,6 +4,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop04 World!");
+        Console.Clear();
+        Menu menu = new Menu();
+        while (menu.GetUserOpt() != 4)
+        {
+            menu.DisplayMenu();
+            menu.ChooseOpt();
+        }
     }
 }
