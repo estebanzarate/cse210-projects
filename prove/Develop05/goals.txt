@@ -1,0 +1,5 @@
+5000
+SimpleGoal:name simple goal,description simple goal,1000,True
+EternalGoal:name eternal goal,description eternal goal,2000
+ChecklistGoal:name checklist goal,description checklist goal,3000,6000,3,0
+SimpleGoal:name simple goal 2,description simple goal 2,1000,False
